@@ -17,3 +17,17 @@ Email : zzcjob397@gmail.com
 ## 2. Entity-Relationship-Diagram
 
 ![ERD](/img/ERD.png)
+
+## Demo
+
+### Login
+
+![login](/img/login.png)
+
+### Profile
+
+![profile](/img/userProfile.png)
+
+### Home
+
+![home](/img/home.png)
