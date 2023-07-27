@@ -31,3 +31,7 @@ Email : zzcjob397@gmail.com
 ### Home
 
 ![home](/img/home.png)
+
+### Post
+
+![POST](/img/post.png)
