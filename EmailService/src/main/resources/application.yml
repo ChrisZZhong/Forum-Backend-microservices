@@ -1,0 +1,30 @@
+spring:
+    mail:
+        host: smtp.gmail.com
+        port: 587
+        username: zzcrabbitmq@gmail.com
+        password: vpdxvipakigntbpi # for windows
+        # password: szfvdflqdbomfmtq # for mac
+        properties:
+            mail:
+                smtp:
+                    auth: true
+                    starttls:
+                        enable: true
+    application:
+        name: email
+    mvc:
+        servlet:
+            path: /email
+
+server:
+    port: 8099
+
+eureka:
+    instance:
+        hostname: localhost
+    client:
+        fetch-registry: true
+        register-with-eureka: true
+        service-url:
+            defaultZone: http://localhost:8761/eureka
